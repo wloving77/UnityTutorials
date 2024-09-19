@@ -1,0 +1,101 @@
+# This .gitignore file is for Unity projects.
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# User-specific files
+UserSettings/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+
+# Unity generated files
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+
+# Visual Studio Code
+.vscode/
+
+# Rider
+.idea/
+*.DotSettings.user
+
+# Mono auto generated files
+mono_crash.*
+
+# Ignore the asset store tools plugin
+[Tt]ools/AssetStoreTools*
+
+# Asset meta data should only be ignored when the corresponding asset is also ignored
+*.pidb.meta
+*.sln.meta
+*.userprefs.meta
+*.user.meta
+*.booproj.meta
+
+# Uncomment if you have the 'Optional Unity (project packages)' enabled.
+# See https://docs.unity3d.com/Manual/Packages.html
+# [Pp]ackages/
+
+# ProjectSettings
+/ProjectSettings/EditorBuildSettings.asset
+/ProjectSettings/EditorSettings.asset
+/ProjectSettings/GraphicsSettings.asset
+/ProjectSettings/ProjectVersion.txt
+/ProjectSettings/InputManager.asset
+/ProjectSettings/TagManager.asset
+/ProjectSettings/TimeManager.asset
+/ProjectSettings/NavMeshAreas.asset
+/ProjectSettings/DynamicsManager.asset
+/ProjectSettings/Physics2DSettings.asset
+/ProjectSettings/QualitySettings.asset
+/ProjectSettings/AudioManager.asset
+/ProjectSettings/ClusterInputManager.asset
+/ProjectSettings/VFXManager.asset
+/ProjectSettings/NetworkManager.asset
+/ProjectSettings/PhysicsSettings.asset
+
+# Auto-generated UI project by Unity
+GeneratedAssets/
+
+# Asset bundle cache
+/AssetBundles/
+
+# Addressable assets generated files
+/Assets/AddressableAssetsData/*.bin
+
+# Editor preferences
+/Assets/Editor/UserSettings/
+
+# Gradle cache
+.gradle/
+
+# Android
+unityLibrary/
+*.apk
+*.aab
+*.ap_
+*.keystore
+
+# iOS
+*.pbxproj
+*.xcworkspace
+*.xcuserstate
+*.xcuserdata
+*.xcodeproj
+
+# UWP
+AppPackages/
