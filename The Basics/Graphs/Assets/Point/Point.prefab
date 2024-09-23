@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6088903239365288942}
   - component: {fileID: 6766413297478955246}
   - component: {fileID: 1326926804405168597}
+  - component: {fileID: -8424114778972979706}
   m_Layer: 0
   m_Name: Point
   m_TagString: Untagged
@@ -61,7 +62,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: b963871d7be92074ab45b10a1adca95c, type: 2}
+  - {fileID: -876546973899608171, guid: c590dd81efee8024fb88b3ef46f4134c, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -83,3 +84,18 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &-8424114778972979706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2117767272071254344}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e18914f742186d4eb2cfa0b719f58c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pointPrefab: {fileID: 0}
+  resolution: 20
+  function: 0

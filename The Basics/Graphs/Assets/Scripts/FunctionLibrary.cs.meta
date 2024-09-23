@@ -1,10 +1,9 @@
 fileFormatVersion: 2
-guid: 2e18914f742186d4eb2cfa0b719f58c6
+guid: f9606175769594b408cbacabb2a988a0
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences:
-  - pointPrefab: {instanceID: 0}
+  defaultReferences: []
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
